@@ -1,0 +1,48 @@
+/* css style для html */
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    object-fit: cover;
+}
+/*header style start */
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background: rgb(28, 36, 44);
+    display: block;
+    z-index: 999; 
+}
+.header-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.header-nav_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*header style end */ 
+
+
+/*main style start */
+/*main style end */ 
+
+
+
+
+
+/*footer style start */
+/*footer style end */ 
